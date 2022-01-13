@@ -1,0 +1,8 @@
+services:
+- type: pserv
+  name: ubuntu
+  env: docker
+  disk:
+    name: data
+    mountPath: /var/lib/data
+    sizeGB: 50
