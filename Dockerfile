@@ -1,2 +1,2 @@
-FROM ubuntu:20.04
+FROM billyteves/ubuntu-dind
 CMD ["/bin/bash"]
